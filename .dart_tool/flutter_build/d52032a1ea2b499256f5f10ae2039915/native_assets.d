@@ -1,0 +1,1 @@
+ /home/wes/Documents/WORKSPACE/Flutter/Aniflix/.dart_tool/flutter_build/d52032a1ea2b499256f5f10ae2039915/native_assets.yaml: 
