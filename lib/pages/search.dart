@@ -31,30 +31,35 @@ class _SearchpageState extends State<Searchpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.teal,
-      appBar: AppBar(
-        title: Text('Search Page'),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            TextField(
-              controller: _searchController,
-              decoration: InputDecoration(
-                hintText: 'Enter your search query',
+      backgroundColor: Colors.teal.shade300,
+      body: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: <Widget>[
+              TextField(               
+                controller: _searchController,
+                decoration: const InputDecoration(
+                  border:OutlineInputBorder(
+                    borderRadius: BorderRadius.all(Radius.circular(10))
+                  ),
+                  prefixIcon: Icon(Icons.search),
+                  hintText: 'Search',
+                ),
               ),
-            ),
-            ElevatedButton(
-              onPressed: _search,
-              child: Text('Search'),
-            ),
-            SizedBox(height: 20),
-            Text(
-              _searchResult,
-              style: TextStyle(fontSize: 20),
-            ),
-          ],
+              SizedBox(height: 10,),
+              ElevatedButton(
+                onPressed: _search,
+                child: Text('Search'),
+              ),
+              SizedBox(height: 20),
+              Text(
+                _searchResult,
+                style: TextStyle(fontSize: 20),
+              ),
+            ],
+          ),
         ),
       ),
     );

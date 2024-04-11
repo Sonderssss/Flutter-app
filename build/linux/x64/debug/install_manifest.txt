@@ -1,6 +1,7 @@
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/aniflix
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/icudtl.dat
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/lib/libfile_selector_linux_plugin.so
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
@@ -9,10 +10,16 @@
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/version.json
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/tanjiro.jpeg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/itachi.jpeg
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/castlevania-title-1.jpg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/choso.jpeg
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/jujutsu-kaisen.jpeg
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/Bleach%202.jpg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/ichigo.jpeg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/Sun.jpg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/googleicon.png
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/naruto-shippuden.jpg
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/vgkDemonSlayerFI.jpg
+/home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/goh.jpeg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/choso-jujutsu-kaisen.png
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/kunai.jpg
 /home/wes/Documents/WORKSPACE/Flutter/Aniflix/build/linux/x64/debug/bundle/data/flutter_assets/assets/alucard.jpeg

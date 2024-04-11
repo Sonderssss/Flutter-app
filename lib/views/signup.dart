@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:aniflix/pages/watchpage.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
@@ -59,7 +60,7 @@ class _SignupState extends State<Signup> {
                 height: 10.0,
               ),
               Container(
-                height: 550,
+                height: 590,
                 width: 325,
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -136,7 +137,7 @@ class _SignupState extends State<Signup> {
                     ? SpinKitChasingDots(
                         
                         color: Colors.pink,
-                        size: 50.0,
+                        size: 40.0,
                       )
                     : 
                       SizedBox(
@@ -144,7 +145,7 @@ class _SignupState extends State<Signup> {
                       ),
                   ),
                     SizedBox(
-                      height: 20,
+                      height: 10,
                     ),
                     GestureDetector(
                       child: Container(
@@ -213,6 +214,19 @@ class _SignupState extends State<Signup> {
                         'assets/googleicon.png',
                       ),
                     ),
+                    const SizedBox(height: 10,),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text("Have an account already, ",style: TextStyle(color: Colors.black)),
+                        GestureDetector(
+                          child:  Text('Login',
+                          style: TextStyle(color: Colors.blueAccent, fontWeight: FontWeight.bold),
+                          ),
+                          onTap: (){Get.offAndToNamed('/Login');} ,
+                        )
+                      ],
+                    )
                   ],
                 ),
               ),

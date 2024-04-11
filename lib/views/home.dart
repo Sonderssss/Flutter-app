@@ -1,4 +1,5 @@
 import 'package:aniflix/controller/controllers.dart';
+import 'package:aniflix/pages/upload.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -59,6 +60,10 @@ class Home extends StatelessWidget {
                       icon: Icons.icecream,
                       text: 'Profile',
                     ),
+                    GButton(
+                      icon: Icons.upload,
+                      text: 'Upload',
+                    ),
                   ],
                 ),
               ))),
@@ -74,6 +79,8 @@ class Home extends StatelessWidget {
               return MyList();
             case 3:
               return Profile();
+            case 4:
+              return Upload();
             default:
               return SizedBox
                   .shrink(); // Return an empty widget if index is out of bounds
